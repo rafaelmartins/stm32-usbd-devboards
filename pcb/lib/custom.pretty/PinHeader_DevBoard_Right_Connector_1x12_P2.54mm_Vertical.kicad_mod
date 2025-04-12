@@ -1,4 +1,4 @@
-(footprint "PinHeader_DevBoard_Right_Connector_1x10_P2.54mm_Vertical"
+(footprint "PinHeader_DevBoard_Right_Connector_1x12_P2.54mm_Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,8 +17,8 @@
 			)
 		)
 	)
-	(property "Value" "PinHeader_DevBoard_Right_Connector_1x10_P2.54mm_Vertical"
-		(at 0 25.908 0)
+	(property "Value" "PinHeader_DevBoard_Right_Connector_1x12_P2.54mm_Vertical"
+		(at 0 30.607 0)
 		(layer "F.Fab")
 		(uuid "6cc95deb-a059-4975-954d-49e68bc7cd34")
 		(effects
@@ -57,7 +57,7 @@
 	(attr through_hole)
 	(fp_line
 		(start -1.8 -1.8)
-		(end -1.8 24.638)
+		(end -1.8 29.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -66,8 +66,8 @@
 		(uuid "d88da293-7d41-4431-a425-9538ab7d134b")
 	)
 	(fp_line
-		(start -1.8 24.638)
-		(end 1.8 24.638)
+		(start -1.8 29.75)
+		(end 1.8 29.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -86,7 +86,7 @@
 		(uuid "8b1fb166-7f92-439b-87c8-3d5119934942")
 	)
 	(fp_line
-		(start 1.8 24.638)
+		(start 1.8 29.75)
 		(end 1.8 -1.8)
 		(stroke
 			(width 0.05)
@@ -109,11 +109,39 @@
 			(justify bottom mirror)
 		)
 	)
+	(fp_text user "${NET_NAME(12)}"
+		(at 0.508 27.178 315)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "2f745f0f-0989-4436-8ef5-38ebb929f176")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(fp_text user "${NET_NAME(1)}"
 		(at 0.762 -1.016 315)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "328e757e-c5dd-40f1-8267-6e01965d117c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "${NET_NAME(11)}"
+		(at 0.508 24.638 315)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "36c77c8f-0d97-4a7e-a89b-5ef32fda582c")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -326,8 +354,24 @@
 		(remove_unused_layers no)
 		(uuid "37e021c7-d788-40dd-abdd-9e6e211c2a57")
 	)
+	(pad "11" thru_hole oval
+		(at 0 25.4)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fe8364c-e468-4a9b-960b-d6fcec52a7a5")
+	)
+	(pad "12" thru_hole oval
+		(at 0 27.94)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4fe345b-7443-4d6e-98b1-b2cb087ae030")
+	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

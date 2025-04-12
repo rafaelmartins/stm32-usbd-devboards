@@ -1,4 +1,4 @@
-(footprint "C_TDK_FA28"
+(footprint "C_TDK_FA26"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "C_TDK_FA28"
+	(property "Value" "C_TDK_FA26"
 		(at 2.5 2.5 0)
 		(layer "F.Fab")
 		(uuid "c6355ec7-d77f-4d5c-a733-9664fd5ef0cf")
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e5367c86-47e7-4079-afc1-a005d29aa306")
+		(uuid "df118cc7-7096-40b7-97b5-1a50fa2c1f70")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "12df2a63-9bdf-407f-9e79-f1b877a738c4")
+		(uuid "9e287519-c4b2-4a63-ac6c-47db53631bd9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,8 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 0.5 -1.25)
-		(end 0.5 -0.95)
+		(start -0.25 -1.75)
+		(end -0.25 -1.055)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -65,8 +65,8 @@
 		(uuid "e7bb273a-4b9c-4148-9131-b1b47b272eb6")
 	)
 	(fp_line
-		(start 0.5 -1.25)
-		(end 4.5 -1.25)
+		(start -0.25 -1.75)
+		(end 5.25 -1.75)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -75,48 +75,48 @@
 		(uuid "637a1561-cb99-407c-b0d4-b5b6a2be7bd7")
 	)
 	(fp_line
-		(start 0.5 1.25)
-		(end 0.5 0.95)
+		(start -0.25 1.75)
+		(end -0.25 1.055)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ea92c161-1066-405c-9de8-a808347d1068")
+		(uuid "b00aaa8d-ef43-40fc-bbf3-e9f6e9450f53")
 	)
 	(fp_line
-		(start 0.5 1.25)
-		(end 4.5 1.25)
+		(start -0.25 1.75)
+		(end 5.25 1.75)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2e2033a4-1d2c-425b-8c4e-893cfc16fda0")
+		(uuid "9e5a5626-9b4e-4ef9-a151-adfde770786b")
 	)
 	(fp_line
-		(start 4.5 -1.25)
-		(end 4.5 -0.95)
+		(start 5.25 -1.75)
+		(end 5.25 -1.055)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c8da18ba-3e29-451d-a4fe-7bf3bfedf2d5")
+		(uuid "c8ea1129-9253-4ab5-8ba4-e8cdf2df9ab9")
 	)
 	(fp_line
-		(start 4.5 1.25)
-		(end 4.5 0.95)
+		(start 5.25 1.75)
+		(end 5.25 1.055)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6d0e8667-3a1e-4905-8ed8-38dcb7f22420")
+		(uuid "7944b8f5-e0b9-448b-9351-6ab8c981e6f5")
 	)
 	(fp_line
-		(start -0.8636 -1.3208)
-		(end -0.8636 1.3208)
+		(start -0.95 -1.85)
+		(end -0.95 1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "3f5c2089-0834-4f6b-af7e-ba900b17bc6b")
 	)
 	(fp_line
-		(start -0.8636 1.3208)
-		(end 5.8928 1.3208)
+		(start -0.95 1.85)
+		(end 5.95 1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,8 +135,8 @@
 		(uuid "aa0a0b22-900c-436b-93b7-3bc5db600964")
 	)
 	(fp_line
-		(start 5.8928 -1.3208)
-		(end -0.8636 -1.3208)
+		(start 5.95 -1.85)
+		(end -0.95 -1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +145,8 @@
 		(uuid "de4ce302-e7b5-4eb5-8464-fc27466f906c")
 	)
 	(fp_line
-		(start 5.8928 1.3208)
-		(end 5.8928 -1.3208)
+		(start 5.95 1.85)
+		(end 5.95 -1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -155,8 +155,8 @@
 		(uuid "2168b1bb-9d0e-458d-a0bf-9d7151c03543")
 	)
 	(fp_line
-		(start 0.5 -1.25)
-		(end 0.5 1.25)
+		(start -0.25 -1.75)
+		(end -0.25 1.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -165,8 +165,8 @@
 		(uuid "41b21db0-d064-49bf-a337-257a2cc01979")
 	)
 	(fp_line
-		(start 0.5 1.25)
-		(end 4.5 1.25)
+		(start -0.25 1.75)
+		(end 5.25 1.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -175,8 +175,8 @@
 		(uuid "104639cd-c8b4-4dc2-b330-a04ebd2d98f1")
 	)
 	(fp_line
-		(start 4.5 -1.25)
-		(end 0.5 -1.25)
+		(start 5.25 -1.75)
+		(end -0.25 -1.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -185,8 +185,8 @@
 		(uuid "34cf403f-dd3d-46cb-aef6-c1ab2acaff32")
 	)
 	(fp_line
-		(start 4.5 1.25)
-		(end 4.5 -1.25)
+		(start 5.25 1.75)
+		(end 5.25 -1.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -222,9 +222,9 @@
 		(uuid "a7891e67-b100-4dd6-858d-8b1c8a5c4376")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3d-models/C_TDK_Fx28.step"
+	(model "${KIPRJMOD}/../lib/3d-models/C_TDK_Fx26.step"
 		(offset
-			(xyz 2.5 0 0)
+			(xyz 2.5 0 3)
 		)
 		(scale
 			(xyz 1 1 1)

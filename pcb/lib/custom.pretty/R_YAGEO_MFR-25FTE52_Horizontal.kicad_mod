@@ -242,7 +242,7 @@
 		(uuid "8344306a-f2e9-488c-89f8-795d49418b7b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3d-models/R_YAGEO_MFR-25FTE52_Horizontal.step"
+	(model "${KIPRJMOD}/../lib/3d-models/R_YAGEO_MFR-25FTE52_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

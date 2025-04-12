@@ -435,7 +435,7 @@
 		(uuid "9c5d3df8-8861-44e9-9314-2cfb65e809c9")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

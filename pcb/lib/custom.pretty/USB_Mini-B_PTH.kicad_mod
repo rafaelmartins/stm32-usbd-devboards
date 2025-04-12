@@ -372,7 +372,7 @@
 		(uuid "93b996b5-156b-427a-9eb0-c318d0512777")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3d-models/USB_Mini-B_PTH.step"
+	(model "${KIPRJMOD}/../lib/3d-models/USB_Mini-B_PTH.step"
 		(offset
 			(xyz 1.6 -8.7 2)
 		)
