@@ -3,8 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
-	(tags "Through hole pin header THT 1x02 2.54mm single row")
 	(property "Reference" "REF**"
 		(at -2.33 0 90)
 		(layer "F.SilkS")
@@ -165,7 +163,7 @@
 		(layer "F.Fab")
 		(uuid "56968ee9-c95b-4291-bcb7-1793b34b76a2")
 	)
-	(fp_text user "${Descr}"
+	(fp_text user "BOOTLOADER"
 		(at 1.27 -1.397 0)
 		(unlocked yes)
 		(layer "F.SilkS")

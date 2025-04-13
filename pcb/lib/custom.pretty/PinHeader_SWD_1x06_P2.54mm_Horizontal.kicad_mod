@@ -3,8 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
-	(tags "Through hole pin header THT 1x05 2.54mm single row")
 	(property "Reference" "REF**"
 		(at -2.33 0 90)
 		(layer "F.SilkS")
@@ -50,6 +48,39 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STM32_PIN2" "XXX"
+		(at 2.54 1.397 0)
+		(layer "F.SilkS")
+		(uuid "c5bce5c4-761d-432d-b8f2-88af73e48474")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STM32_PIN4" "XXX"
+		(at 7.62 1.397 0)
+		(layer "F.SilkS")
+		(uuid "e2661aa2-28f1-4286-8ac5-3177998fcffb")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STM32_PIN6" "XXX"
+		(at 12.7 1.397 0)
+		(layer "F.SilkS")
+		(uuid "d199a193-585d-452e-9b2f-1a861a60e232")
+		(effects
+			(font
+				(size 0.6 0.6)
 				(thickness 0.15)
 			)
 		)
@@ -179,7 +210,7 @@
 			(justify bottom)
 		)
 	)
-	(fp_text user "${Descr}"
+	(fp_text user "SWD"
 		(at 6.35 -2.413 0)
 		(unlocked yes)
 		(layer "F.SilkS")

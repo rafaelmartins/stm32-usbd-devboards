@@ -3,8 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
-	(tags "Through hole pin header THT 1x05 2.54mm single row")
 	(property "Reference" "REF**"
 		(at -2.33 0 90)
 		(layer "F.SilkS")
@@ -54,6 +52,28 @@
 			)
 		)
 	)
+	(property "STM32_PIN2" "XXX"
+		(at 2.54 1.397 0)
+		(layer "F.SilkS")
+		(uuid "d4ae7cd1-7132-4cea-a1eb-b9cb414ab42a")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STM32_PIN4" "XXX"
+		(at 7.62 1.397 0)
+		(layer "F.SilkS")
+		(uuid "6adc95fa-21e8-4bce-8bd8-df1a34701509")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_line
 		(start -1.33 1.33)
@@ -74,46 +94,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "df275c5e-3d29-4e9b-a075-1d9ef7500f3c")
-	)
-	(fp_line
-		(start 1.27 -1.33)
-		(end 11.49 -1.33)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "09bf1fa9-9ec6-4d5c-bed9-fcd1fe76bd8e")
-	)
-	(fp_line
-		(start 1.27 1.33)
-		(end 1.27 -1.33)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ca5828e9-d843-47d3-ba03-04aa461c1504")
-	)
-	(fp_line
-		(start 1.27 1.33)
-		(end 11.49 1.33)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "35bb1bb5-998b-4ce9-a139-e009425d4e40")
-	)
-	(fp_line
-		(start 11.49 1.33)
-		(end 11.49 -1.33)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8725ca70-8507-4395-b10c-ad09334352c2")
 	)
 	(fp_line
 		(start -1.8 -1.8)
@@ -205,8 +185,8 @@
 		(layer "F.Fab")
 		(uuid "085f4818-84f1-415f-823e-e6076d0e732d")
 	)
-	(fp_text user "${Descr}"
-		(at 5.08 -2.667 0)
+	(fp_text user "SWD"
+		(at 5.08 -2.413 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9d491e39-8193-4bbd-924a-45e01195a160")
@@ -220,7 +200,7 @@
 		)
 	)
 	(fp_text user "${NET_NAME(2)}"
-		(at 2.54 -1.651 0)
+		(at 2.54 -1.397 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b75c13a3-3f4c-42e8-b95b-8b946e6b4e88")
@@ -234,7 +214,7 @@
 		)
 	)
 	(fp_text user "${NET_NAME(5)}"
-		(at 10.16 -1.651 0)
+		(at 10.16 -1.397 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c4827b64-c02e-4cd2-a913-f4e83436a425")
@@ -248,7 +228,7 @@
 		)
 	)
 	(fp_text user "${NET_NAME(1)}"
-		(at 0 -1.651 0)
+		(at 0 -1.397 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f26d7a44-fab7-446b-87d5-4888c5b45657")
@@ -262,7 +242,7 @@
 		)
 	)
 	(fp_text user "${NET_NAME(3)}"
-		(at 5.08 -1.651 0)
+		(at 5.08 -1.397 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "fba856a3-21fb-4a7e-a849-138996f18763")
@@ -276,7 +256,7 @@
 		)
 	)
 	(fp_text user "${NET_NAME(4)}"
-		(at 7.62 -1.651 0)
+		(at 7.62 -1.397 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "fcdff2d5-b7d1-45cf-943b-a43fa0470e85")
@@ -341,15 +321,15 @@
 		(uuid "c1741286-ba0e-4f33-8f37-5fd51504bac5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Horizontal.wrl"
 		(offset
-			(xyz 0 0 0)
+			(xyz 10.16 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz -0 -0 90)
 		)
 	)
 )
