@@ -27,9 +27,7 @@ There are plenty of `STM32 Nucleo` boards available on the market, at very reaso
 - The `JP1` solder bridge connects the GPIO `PF1` to the board pin `F1`, and the `JP2` solder bridge connects the GPIO `PF0` to the board pin `F0`. These connections should not be made if a crystal is used as `HSE`.
 - The current version of the board has undergone a modification in its pinout. Previously, pins `F1` and `F0` were interchanged, and they are now unconnected.
 
-| Front | Back |
-| ----- | ---- |
-| ![Front](https://rafaelmartins.github.io/stm32-usbd-devboards/f0/20250412/stm32f0-usbd-devboard-front_1080.png) | ![Front](https://rafaelmartins.github.io/stm32-usbd-devboards/f0/20250412/stm32f0-usbd-devboard-back_1080.png) |
+![3D Render](https://rafaelmartins.github.io/stm32-usbd-devboards/f0/20250412/stm32f0-usbd-devboard_1080.png)
 
 
 ### Legacy Revision: [20241212](https://github.com/rafaelmartins/stm32-usbd-devboards/tree/f0/20241212/pcb/stm32f0-usbd-devboard)
@@ -40,10 +38,7 @@ There are plenty of `STM32 Nucleo` boards available on the market, at very reaso
 - Supported microcontrollers: `STM32F042K4T6`, `STM32F042K6T6`.
 - No `HSE` support.
 
-| Front | Back |
-| ----- | ---- |
-| ![Front](https://rafaelmartins.github.io/stm32-usbd-devboards/f0/20241212/stm32f0-usbd-devboard-front_1080.png) | ![Front](https://rafaelmartins.github.io/stm32-usbd-devboards/f0/20241212/stm32f0-usbd-devboard-back_1080.png) |
-
+![3D Render](https://rafaelmartins.github.io/stm32-usbd-devboards/f0/20241212/stm32f0-usbd-devboard_1080.png)
 
 
 ## STM32G4 Variant
@@ -58,9 +53,7 @@ There are plenty of `STM32 Nucleo` boards available on the market, at very reaso
 - `JP1` solder bridge skips the ferrite bead `FB1` if that part is not available, or the application is purely digital.
 - Only minor fixes since the previous revision.
 
-| Front | Back |
-| ----- | ---- |
-| ![Front](https://rafaelmartins.github.io/stm32-usbd-devboards/g4/20250412/stm32g4-usbd-devboard-front_1080.png) | ![Front](https://rafaelmartins.github.io/stm32-usbd-devboards/g4/20250412/stm32g4-usbd-devboard-back_1080.png) |
+![3D Render](https://rafaelmartins.github.io/stm32-usbd-devboards/g4/20250412/stm32g4-usbd-devboard_1080.png)
 
 
 ### Legacy Revision: [20250402](https://github.com/rafaelmartins/stm32-usbd-devboards/tree/g4/20250402/pcb/stm32g4-usbd-devboard)
@@ -72,9 +65,7 @@ There are plenty of `STM32 Nucleo` boards available on the market, at very reaso
 - Supports `HSE` using a `HC49` crystal.
 - `JP1` solder bridge skips the ferrite bead `FB1` if that part is not available, or the application is purely digital.
 
-| Front | Back |
-| ----- | ---- |
-| ![Front](https://rafaelmartins.github.io/stm32-usbd-devboards/g4/20250402/stm32g4-usbd-devboard-front_1080.png) | ![Front](https://rafaelmartins.github.io/stm32-usbd-devboards/g4/20250402/stm32g4-usbd-devboard-back_1080.png) |
+![3D Render](https://rafaelmartins.github.io/stm32-usbd-devboards/g4/20250402/stm32g4-usbd-devboard_1080.png)
 
 
 ## License

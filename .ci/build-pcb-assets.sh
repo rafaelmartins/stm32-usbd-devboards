@@ -61,12 +61,25 @@ function render() {
     resize "${OUTPUT_DIR}/${NAME}-${1}.png" 480
     resize "${OUTPUT_DIR}/${NAME}-${1}.png" 720
     resize "${OUTPUT_DIR}/${NAME}-${1}.png" 1080
-
-    rm "${OUTPUT_DIR}/${NAME}-${1}.png"
 }
 
 render front
 render back
+
+montage \
+    "${OUTPUT_DIR}/${NAME}-front.png" \
+    "${OUTPUT_DIR}/${NAME}-back.png" \
+    -tile 2x1 \
+    -geometry +0+0 \
+    "${OUTPUT_DIR}/${NAME}.png"
+
+resize "${OUTPUT_DIR}/${NAME}.png" 480
+resize "${OUTPUT_DIR}/${NAME}.png" 720
+resize "${OUTPUT_DIR}/${NAME}.png" 1080
+
+rm "${OUTPUT_DIR}/${NAME}.png"
+rm "${OUTPUT_DIR}/${NAME}-front.png"
+rm "${OUTPUT_DIR}/${NAME}-back.png"
 
 kicad-cli \
     sch export pdf \

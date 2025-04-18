@@ -54,10 +54,13 @@ EOF
 
         cat >> "${OUTPUT_DIR}/index.html" <<EOF
     <h3>Revision: ${revision}</h3>
-    <img src="./${family}/${revision}/${NAME}-front_480.png">
+    <img src="./${family}/${revision}/${NAME}_480.png">
     <ul>
       <li><a href="./${family}/${revision}/${NAME}.html">Interactive Bill of Materials</a></li>
       <li><a href="./${family}/${revision}/${NAME}.pdf">Schematics</a></li>
+      <li><a href="./${family}/${revision}/${NAME}_1080.png">3D Render (Front/Back, 1080p)</a></li>
+      <li><a href="./${family}/${revision}/${NAME}_720.png">3D Render (Front/Back, 720p)</a></li>
+      <li><a href="./${family}/${revision}/${NAME}_480.png">3D Render (Front/Back, 480p)</a></li>
       <li><a href="./${family}/${revision}/${NAME}-front_1080.png">3D Render (Front, 1080p)</a></li>
       <li><a href="./${family}/${revision}/${NAME}-front_720.png">3D Render (Front, 720p)</a></li>
       <li><a href="./${family}/${revision}/${NAME}-front_480.png">3D Render (Front, 480p)</a></li>
