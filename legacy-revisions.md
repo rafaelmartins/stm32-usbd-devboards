@@ -3,7 +3,7 @@
 > [!WARNING]
 > The boards listed on this page are considered legacy. They can still be used as long as their limitations are respected and pinout differences to the latest revisions (if any) are taken into account.
 >
-> Please note that the symbols, examples and the documentation in general are based on the latest release.
+> Please note that the symbols, examples and the documentation in general are based on the latest revisions.
 
 ## STM32F0 Variant
 
