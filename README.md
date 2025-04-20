@@ -17,6 +17,8 @@ There are plenty of `STM32 Nucleo` boards available on the market, at very reaso
 
 ## STM32F0 Variant
 
+This variant makes the `HSE` crystal optional. It uses the `HSI48` clock as the main clock, allowing the user to expose the `PF0` and `PF1` GPIOs to the board pins. The maximum possible clock frequency is the same as the `HSI48` (48MHz), which is self-calibrated by the USB host. A crystal is generally only when the USB port is used only to power the device.
+
 ### Revision [20250412](https://github.com/rafaelmartins/stm32-usbd-devboards/tree/f0/20250412/pcb/stm32f0-usbd-devboard)
 
 - [Interactive Bill of Materials](https://rafaelmartins.github.io/stm32-usbd-devboards/f0/20250412/stm32f0-usbd-devboard.html)
@@ -31,6 +33,8 @@ There are plenty of `STM32 Nucleo` boards available on the market, at very reaso
 
 
 ## STM32G4 Variant
+
+This variant usually requires the `HSE` crystal, even for USB-connected devices, because the `HSI48` clock can't be used as the main clock. This means that if the `HSI` clock's precision isn't enough for the operation, a crystal must be installed for `HSE`. The `PF0` and `PF1` GPIOs are never exposed to the board pins.
 
 ### Revision [20250412](https://github.com/rafaelmartins/stm32-usbd-devboards/tree/g4/20250412/pcb/stm32g4-usbd-devboard)
 
