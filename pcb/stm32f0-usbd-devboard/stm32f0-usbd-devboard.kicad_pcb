@@ -953,7 +953,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "22p"
 			(at 1.25 2.55 0)
 			(layer "F.Fab")
 			(uuid "dbf85ed6-f4a2-4e6f-883b-f001fb69c986")
@@ -3185,7 +3185,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "22p"
 			(at 1.25 2.55 0)
 			(layer "F.Fab")
 			(uuid "faa47e1d-090f-4634-b469-0da595f94068")

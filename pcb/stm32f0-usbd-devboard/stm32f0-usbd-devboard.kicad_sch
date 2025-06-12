@@ -10246,7 +10246,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "22p"
 			(at 153.6636 143.51 90)
 			(effects
 				(font
@@ -10323,7 +10323,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "22p"
 			(at 153.6636 123.19 90)
 			(effects
 				(font
