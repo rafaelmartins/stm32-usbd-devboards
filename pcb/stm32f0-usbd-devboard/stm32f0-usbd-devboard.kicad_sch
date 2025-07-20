@@ -6990,7 +6990,7 @@
 			(uuid "e532223a-83cc-4b7b-a71e-a4d1bc1cc6ca")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "J1")
 					(unit 1)
@@ -7056,7 +7056,7 @@
 			(uuid "b7286c20-130f-4ff9-9fc9-d84ab299a4b2")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR01")
 					(unit 1)
@@ -7122,7 +7122,7 @@
 			(uuid "9f9c1b37-7e0a-437c-a55e-c94f9eba4df6")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR07")
 					(unit 1)
@@ -7291,7 +7291,7 @@
 			(uuid "f22b2f6e-649a-4260-b5dc-e9913b5217d9")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "U3")
 					(unit 1)
@@ -7457,7 +7457,7 @@
 			(uuid "90b39ab9-809f-4878-b6a6-7ffe13c98b29")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "H1")
 					(unit 1)
@@ -7523,7 +7523,7 @@
 			(uuid "546d07f2-993e-46ac-9430-7125d79a8d8a")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR05")
 					(unit 1)
@@ -7593,7 +7593,7 @@
 			(uuid "69d6f4d0-4d7b-43bb-8620-b228029a707d")
 		)
 		(instances
-			(project ""
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "Y1")
 					(unit 1)
@@ -7659,7 +7659,7 @@
 			(uuid "9e0724fa-8881-4ce4-b598-01f82ba7a456")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR012")
 					(unit 1)
@@ -7725,7 +7725,7 @@
 			(uuid "f9669937-6ba2-45c2-a7ca-bb42756ef839")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR03")
 					(unit 1)
@@ -7804,7 +7804,7 @@
 			(uuid "12332b0e-f756-482c-b6ed-321fccf0cf2e")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "C8")
 					(unit 1)
@@ -7936,7 +7936,7 @@
 			(uuid "e0fffeec-fd53-40c5-a04e-5aa0b86bc811")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR014")
 					(unit 1)
@@ -8015,7 +8015,7 @@
 			(uuid "4f0ac196-d10c-4ddc-b042-510675731c29")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "C4")
 					(unit 1)
@@ -8094,7 +8094,7 @@
 			(uuid "f9c29577-6549-47d4-9598-010165e2c912")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "C7")
 					(unit 1)
@@ -8226,7 +8226,7 @@
 			(uuid "b0696dea-2222-4366-a8be-bff1900e05a7")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR015")
 					(unit 1)
@@ -8292,7 +8292,7 @@
 			(uuid "7e33497b-8d37-4f17-9077-32c63775e807")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR02")
 					(unit 1)
@@ -8358,7 +8358,7 @@
 			(uuid "72c0115b-9812-486c-9133-9ba16c973401")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR016")
 					(unit 1)
@@ -8424,7 +8424,7 @@
 			(uuid "8e7ccf90-78b4-4a5a-bfdb-5ccb6ae3a958")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR017")
 					(unit 1)
@@ -8490,7 +8490,7 @@
 			(uuid "e1a83096-f5cd-4561-b3b6-4f23556b525a")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR011")
 					(unit 1)
@@ -8787,7 +8787,7 @@
 			(uuid "5f039e31-e4d7-4ee6-9551-dbda80825a77")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "H4")
 					(unit 1)
@@ -8853,7 +8853,7 @@
 			(uuid "a1a69d45-e58c-46e0-a54b-8decdf7390b9")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR08")
 					(unit 1)
@@ -9011,7 +9011,7 @@
 			(uuid "89b6543f-bef1-4002-92d3-aa9d97d516cc")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "U1")
 					(unit 1)
@@ -9090,7 +9090,7 @@
 			(uuid "27f63bee-6a58-40c3-9e85-263f9c204542")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "R1")
 					(unit 1)
@@ -9169,7 +9169,7 @@
 			(uuid "a41b1622-5e44-4803-ac82-586cd3537572")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "R2")
 					(unit 1)
@@ -9248,7 +9248,7 @@
 			(uuid "c42450cb-ed98-4da7-b72a-100dbbf1ba86")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "C3")
 					(unit 1)
@@ -9314,7 +9314,7 @@
 			(uuid "ea4076f9-5b4f-48e4-ba87-f574a0bd4735")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR04")
 					(unit 1)
@@ -9381,7 +9381,7 @@
 			(uuid "3205c583-5339-4c85-9cb8-797ff0031be7")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR013")
 					(unit 1)
@@ -9547,7 +9547,7 @@
 			(uuid "ffebbfdf-5811-439e-9c88-81f591f18dd9")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "D1")
 					(unit 1)
@@ -9626,7 +9626,7 @@
 			(uuid "28951a89-e5da-4fc8-91d2-687bb0fc5b3a")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "C1")
 					(unit 1)
@@ -9708,7 +9708,7 @@
 			(uuid "2d1c4098-3fd0-45be-ba0c-916407a6ddd6")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "U2")
 					(unit 1)
@@ -9864,7 +9864,7 @@
 			(uuid "3f3aebae-85c0-4e1e-87da-9069c4943ec6")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "C5")
 					(unit 1)
@@ -9930,7 +9930,7 @@
 			(uuid "12f24e00-04f1-4659-a079-a7072dd8ed34")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR010")
 					(unit 1)
@@ -10009,7 +10009,7 @@
 			(uuid "326df9d0-9933-4f19-b35a-73ca1ede970e")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "C6")
 					(unit 1)
@@ -10075,7 +10075,7 @@
 			(uuid "cd2a91c3-0265-4d32-94a0-e28a1d965925")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR06")
 					(unit 1)
@@ -10153,7 +10153,7 @@
 			(uuid "b467fcc4-414b-4664-9565-473676c1da8f")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "J5")
 					(unit 1)
@@ -10220,7 +10220,7 @@
 			(uuid "54899321-5437-41af-82bf-7e088bf9458c")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "H3")
 					(unit 1)
@@ -10453,7 +10453,7 @@
 			(uuid "2312fd6a-ac1f-4fc6-9cb8-53b3f673c79d")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "C2")
 					(unit 1)
@@ -10557,7 +10557,7 @@
 			(uuid "10416b31-26a3-428f-83df-670948ff95a9")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "J2")
 					(unit 1)
@@ -10624,7 +10624,7 @@
 			(uuid "5d02a6fe-d8cd-4692-83ac-0827eed13d00")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "H2")
 					(unit 1)
@@ -10690,7 +10690,7 @@
 			(uuid "76d97a3a-a7cf-4a0c-8cf6-c5256f3e0392")
 		)
 		(instances
-			(project "octokeyz"
+			(project "stm32f0-usbd-devboard"
 				(path "/9dfb088a-dc13-4cda-8eaa-1c0e145d0715"
 					(reference "#PWR09")
 					(unit 1)
