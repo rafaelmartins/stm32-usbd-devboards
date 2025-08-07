@@ -21,7 +21,7 @@ if [[ "x${CI:-}" = "xtrue" ]] && [[ -n "${DEPENDENCIES}" ]]; then
 
     if [[ ! -e "${ROOT_DIR}/.apt-updated" ]]; then
         # we will need kicad anyway, lets install the ppa already
-        sudo add-apt-repository -y ppa:kicad/kicad-9.0-releases 1>&2
+        sudo add-apt-repository -y ppa:kicad/kicad-9.0-nightly 1>&2
         sudo apt update 1>&2
         touch "${ROOT_DIR}/.apt-updated"
     fi
