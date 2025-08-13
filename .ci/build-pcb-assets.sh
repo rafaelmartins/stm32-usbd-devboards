@@ -7,7 +7,7 @@ PCB_RENDER_WIDTH=1840
 PCB_RENDER_HEIGHT=4320
 
 NUM_ARGS=1
-DEPENDENCIES="kicad kicad-symbols kicad-footprints kicad-packages3d imagemagick"
+DEPENDENCIES="kicad kicad-libraries kicad-footprints kicad-packages3d imagemagick"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &> /dev/null && pwd)"
 source "${SCRIPT_DIR}/utils.sh"

@@ -13,6 +13,8 @@ trap 'rm -rf -- "${MYTMPDIR}"' EXIT
 "${SCRIPT_DIR}/checkout-pcb-revisions.sh" \
     "${MYTMPDIR}"
 
+"${SCRIPT_DIR}/patch-render-config.sh"
+
 cat > "${OUTPUT_DIR}/index.html" <<EOF
 <html>
   <head><title>stm32-usbd-devboards</title></head>
