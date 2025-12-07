@@ -34,3 +34,6 @@ fp-info-cache
 
 # Firmware
 build
+
+# Kicad Assets
+_build
