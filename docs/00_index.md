@@ -53,7 +53,7 @@ Cortex-M0+ at 48 MHz. Crystal-free USB like the F0 variant, with 64 KB flash, 24
 
 ## Get Started
 
-- **[Build manual](@@/hardware/build-manual/)** -- assembly and soldering instructions
+- **[Build manual](@@/hardware/build-manual/)** -- generic assembly and soldering instructions
 - **[cmake-cmsis-stm32](@@/p/cmake-cmsis-stm32/)** -- CMake module for bare-metal STM32 firmware development
 - **[Source files on GitHub](https://github.com/rafaelmartins/stm32-usbd-devboards)** -- KiCad schematics, PCB layouts, and Gerber files
 
