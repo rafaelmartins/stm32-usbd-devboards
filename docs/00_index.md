@@ -9,9 +9,11 @@ menu: Main
 
 **Breadboard-friendly development boards with dedicated USB device connectivity for STM32 microcontrollers.**
 
+## Overview
+
 Nucleo-32 boards have a problem: the only USB port is consumed by the built-in ST-Link programmer, leaving no independent USB connection for the microcontroller's device peripheral. These boards fix that -- a dedicated USB Mini-B connector wired straight to the MCU, separate from the SWD programmer, so you can develop USB firmware the way it should work.
 
-## Why These Boards
+## Key Highlights
 
 - **Independent USB Mini-B** -- dedicated device port, not shared with the programmer
 - **USB DFU bootloader** -- flash firmware over USB, no programmer required
@@ -20,7 +22,7 @@ Nucleo-32 boards have a problem: the only USB port is consumed by the built-in S
 - **SWD header** -- connect your hardware debugger when you need it
 - **On-board power and protection** -- 5 V to 3.3 V LDO from USB, ESD protection on data lines
 
-## Three Variants
+## Hardware Variants
 
 Pick the microcontroller that fits your project.
 
@@ -51,10 +53,10 @@ Cortex-M0+ at 48 MHz. Crystal-free USB like the F0 variant, with 64 KB flash, 24
 
 [STM32C0 variant details](30_stm32c0.md)
 
-## Get Started
+## Explore Further
 
-- **[Build manual](@@/hardware/build-manual/)** -- generic assembly and soldering instructions
-- **[cmake-cmsis-stm32](@@/p/cmake-cmsis-stm32/)** -- CMake module for bare-metal STM32 firmware development
-- **[Source files on GitHub](https://github.com/rafaelmartins/stm32-usbd-devboards)** -- KiCad schematics, PCB layouts, and Gerber files
+- [Build manual](@@/hardware/build-manual/) -- generic assembly and soldering instructions
+- [cmake-cmsis-stm32](@@/p/cmake-cmsis-stm32/) -- CMake module for bare-metal STM32 firmware development
+- [Source files on GitHub](https://github.com/rafaelmartins/stm32-usbd-devboards) -- KiCad schematics, PCB layouts, and Gerber files
 
 Hardware released under [CERN-OHL-S-2.0](https://github.com/rafaelmartins/stm32-usbd-devboards/blob/main/LICENSE).
