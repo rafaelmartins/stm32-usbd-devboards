@@ -41,7 +41,7 @@ jobs:
             cp "_main/pcb/${name}/config.yml" "pcb/${name}/config.yml"
           fi
 
-      - uses: rafaelmartins/website/hardware@main
+      - uses: rafaelmartins/website/kicad@main
         with:
           configuration: ./pcb/${{ steps.metadata.outputs.name }}/config.yml
           source: ./pcb/${{ steps.metadata.outputs.name }}
