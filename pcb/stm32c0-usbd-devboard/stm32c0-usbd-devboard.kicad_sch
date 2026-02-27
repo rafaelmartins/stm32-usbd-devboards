@@ -7463,7 +7463,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8MHz"
+		(property "Value" "48MHz"
 			(at 161.29 132.0799 90)
 			(effects
 				(font
