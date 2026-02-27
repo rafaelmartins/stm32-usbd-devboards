@@ -145,7 +145,7 @@
 				)
 			)
 		)
-		(property "Value" "8MHz"
+		(property "Value" "48MHz"
 			(at 2.44 3.525 90)
 			(layer "F.Fab")
 			(uuid "c2add99a-e9aa-4734-a02c-44bec32bbbde")
