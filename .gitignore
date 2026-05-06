@@ -15,6 +15,7 @@ _autosave-*
 *.kicad_prl
 *-cache.lib
 fp-info-cache
+.history
 
 # Gerber
 *.drl
